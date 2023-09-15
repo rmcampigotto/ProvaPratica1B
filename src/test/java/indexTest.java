@@ -11,7 +11,7 @@ public class indexTest {
     @Test
     public void testeCadastroListagemProdutos() {
         // Abrir a página do sistema
-        driver.get("file:/Users/joaochoma/Documents/GitHub/testeequalidadedesoftware/SEMANA05/TesteFuncionalAulaPratica/src/main/java/visao/index.html");
+        driver.get("file:C:\\Users\\Rafael\\Documents\\Projects\\TesteQualidade\\Exercicios\\ProvaPratica1B\\src\\main\\java\\org\\example\\index.html");
 
         // Adicionar um produto
         WebElement nomeProdutoInput = driver.findElement(By.id("nomeProduto"));
